@@ -26,7 +26,7 @@ class home extends Component {
                 style={{ padding: "0", paddingTop: "25px"}}
                 >
                 <Grid item xs={12}>
-                    <Paper style={{paddingTop: "25px", paddingBottom: "25px"}}>
+                    <Paper style={{paddingTop: "5px", paddingBottom: "15px"}}>
                         <Fullness/>
                     </Paper>
                 </Grid> 

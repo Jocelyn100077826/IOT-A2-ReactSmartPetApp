@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Grid from '@material-ui/core/Grid';
-//import axios from "axios";
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -110,11 +108,15 @@ class Fullness extends Component {
 
     render() {
         const fb = {
-            top: "20%",
-            position: 'absolute',
-            left:"auto",
             zIndex: 1,
+            position: 'absolute',
+            paddingTop: "115px",
+            top: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
         }
+
 
         return (
             <div>
@@ -135,7 +137,7 @@ class Fullness extends Component {
                         </Typography>
                     </Grid> 
                     <Grid item xs={12}>
-                        <div style={{padding: "5px", paddingLeft: "20px", paddingRight: "20px"}}>
+                        <div style={{ paddingLeft: "20px", paddingRight: "20px"}}>
                             <p>{this.state.feedlog === "" ? <LinearProgress /> : this.state.feedlog}</p>
                         </div>
                     </Grid> 
