@@ -4,6 +4,6 @@
     "@devexpress/dx-react-chart-material-ui": "^2.6.2",
     "@devexpress/dx-react-core": "^2.6.2",
     "@material-ui/lab": "^4.0.0-alpha.52",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
